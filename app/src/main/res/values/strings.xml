@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">toppings</string>
+
+    <!-- Header text for the quantity section [CHAR LIMIT=20] -->
+    <string name="quantity">quantity</string>
+
+    <!-- List text for whipped cream. [CHAR LIMIT=NONE] -->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- List text for chocolate. [CHAR LIMIT=NONE] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Thank you message for order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">thank you!</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+    <string name="initial_quantity_value">0</string>
+
+    <!--
+      Name for order summary.  It will be shown in the format:
+          "Name: Amy"
+          where Amy is the user's name. [CHAR LIMIT=NONE]
+     -->
+    <string name="order_summary_name">
+        Name: <xliff:g id="name" example="Amy">%s</xliff:g>
+    </string>
+
+    <!-- For order summary. [CHAR LIMIT=NONE] -->
+    <string name="add_whipped_topping_question">Add whipped topping?\u0020</string>
+    <string name="add_chocolate_question">Add chocolate?\u0020</string>
+    <string name="quantity_for_summary">Quantity:\u0020</string>
+    <string name="total_cost">Total:\u0020<xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <!-- Subject line for order summary email. [CHAR LIMIT=NONE] -->
+    <string name="summary_email_subject">Order Summary for\u0020</string>
+
+    <!-- Toast message for trying to order more than 100 cups. [CHAR LIMIT=NONE] -->
+    <string name="too_many_cups">Sorry, you can only order up to 100 cups.</string>
+
+    <!-- Toast message for trying to less than 0 cups. [CHAR LIMIT=NONE] -->
+    <string name="too_few_cups">Sorry, you must order at least 1 cup.</string>
+
+    <!-- Button text for order button. [CHAR LIMIT=15] -->
+    <string name="order_button">order</string>
+</resources>
